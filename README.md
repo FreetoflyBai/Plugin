@@ -4,21 +4,21 @@
 
 ##Instructions
 
-  1.deploy
+  ##1.deploy
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/1.png)
-  2.achieve
-  ###extends
+  ##2.achieve
+  >extends
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/2.png)
-  ###check connected
+  >check connected
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/3.png)
-  ###check installed
+  >check installed
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/4.png)
-  ###start plugin
+  >start plugin
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/5.png)
-  ###install plugin
+  >install plugin
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/6.png)
 
 ##Note
-   ###library build.gradle need replace package name
+   >library build.gradle need replace package name
    ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/7.png)
 
