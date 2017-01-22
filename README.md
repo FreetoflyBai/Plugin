@@ -7,15 +7,15 @@
   ##1.deploy##
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/1.png)
   ##2.achieve##
-  * extends
+  * extends<br>
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/2.png)
-  * check connected
+  * check connected<br>
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/3.png)
-  * check installed
+  * check installed<br>
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/4.png)
-  * start plugin
+  * start plugin<br>
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/5.png)
-  * install plugin
+  * install plugin<br>
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/6.png)
 
 ##Note
