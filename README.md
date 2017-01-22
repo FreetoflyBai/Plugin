@@ -4,9 +4,9 @@
 
 ##Instructions
 
-  ###deploy
+  ##deploy
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/1.png)
-  ###achieve
+  ##achieve
   * extends<br>
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/2.png)
   * check connected<br>
