@@ -19,6 +19,6 @@
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/6.png)
 
 ##Note
-   * library build.gradle need replace package name<br>
+   library build.gradle need replace package name<br>
    ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/7.png)
 
