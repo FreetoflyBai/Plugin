@@ -25,9 +25,9 @@ import static com.morgoo.helper.compat.PackageManagerCompat.INSTALL_SUCCEEDED;
 public class MainActivity extends AppCompatActivity implements ServiceConnection {
 
     Handler handler=new Handler(Looper.getMainLooper());
-    String packageName="com.r22software.retrocam2";
+    String PACKAGE_NAME="com.android.hello";
     FileOutputStream fos;
-    String assetsName= "resources";
+    String ASSETS_NAME= "hello";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,11 +68,11 @@ public class MainActivity extends AppCompatActivity implements ServiceConnection
         }
         try {
             //判断插件是否已安装,已安装则直接启动插件
-            if(PluginManager.getInstance().getPackageInfo(packageName, 0) != null){
+            if(PluginManager.getInstance().getPackageInfo(PACKAGE_NAME, 0) != null){
                 handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        startPlugin(packageName);
+                        startPlugin(PACKAGE_NAME);
                     }
                 },1000);
             }else{//未安装，则安装插件
@@ -85,11 +85,11 @@ public class MainActivity extends AppCompatActivity implements ServiceConnection
 
     /**
      * 启动插件
-     * @param packageName
+     * @param PACKAGE_NAME
      */
-    private void startPlugin(String packageName){
+    private void startPlugin(String PACKAGE_NAME){
         PackageManager pm = getPackageManager();
-        Intent intent = pm.getLaunchIntentForPackage(packageName);
+        Intent intent = pm.getLaunchIntentForPackage(PACKAGE_NAME);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
         finish();
@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity implements ServiceConnection
                         @Override
                         public void run() {
                             if(result==INSTALL_SUCCEEDED){
-                                startPlugin(packageName);
+                                startPlugin(PACKAGE_NAME);
                             }
                         }
                     });
@@ -149,14 +149,14 @@ public class MainActivity extends AppCompatActivity implements ServiceConnection
     private String writeTo(){
         String filePath="";
         try {
-            InputStream is=getAssets().open(assetsName+".zip");
+            InputStream is=getAssets().open(ASSETS_NAME+".apk");
             File dir = new File(
                     Environment.getExternalStorageDirectory(),
                     "Android/data/"+getPackageName());
             if(!dir.exists()){
                 dir.mkdirs();
             }
-            File file=new File(dir.getAbsolutePath()+"/"+assetsName+".apk");
+            File file=new File(dir.getAbsolutePath()+"/"+ASSETS_NAME+".apk");
             if(!file.exists()){
                 file.createNewFile();
             }
