@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="service_name_plugin_manager_service">plugin server</string>
+    <string name="stub_name_activity">start plugin ...</string>
+    <string name="stub_name_povider">plugin server</string>
+    <string name="stub_name_service">plugin server</string>
+    <style name="DroidPluginTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/plugin_activity_loading</item>
+    </style>
+    <style name="DroidPluginThemeDialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/plugin_activity_loading</item>
+    </style>
+</resources>

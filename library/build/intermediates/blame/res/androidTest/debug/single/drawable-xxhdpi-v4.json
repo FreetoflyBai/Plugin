@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\AndroidStudio\\Plugin\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\plugin_activity_loading.xml",
+        "source": "E:\\AndroidStudio\\Plugin\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\plugin_activity_loading.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\Plugin\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\plugin_activity_loading_bitmap.9.png",
+        "source": "E:\\AndroidStudio\\Plugin\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\plugin_activity_loading_bitmap.9.png"
+    }
+]
