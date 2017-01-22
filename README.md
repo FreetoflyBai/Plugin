@@ -6,7 +6,7 @@
 
   1.deploy<br>
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/1.png)
-  2.achieve
+  2.achieve<br>
   * extends<br>
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/2.png)
   * check connected<br>
