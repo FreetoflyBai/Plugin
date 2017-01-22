@@ -7,7 +7,7 @@
 ###  1.deploy
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/1.png)
 ###  2.achieve
-  * extends<br>
+  * implements<br>
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/2.png)
   * check connected<br>
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/3.png)
