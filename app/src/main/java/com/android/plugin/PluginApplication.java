@@ -12,7 +12,7 @@ import com.morgoo.droidplugin.PluginHelper;
  * QQ         : 904869397@qq.com
  */
 
-public class MainApplication extends Application {
+public class PluginApplication extends Application {
 
     @Override
     public void onCreate() {
