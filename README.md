@@ -1,6 +1,6 @@
 # Plugin
 
-## Plugin is a library of Android plugin develop ,base on DroidPlugin
+Plugin is a library of Android plugin develop ,base on DroidPlugin
 
 ## Instructions
 
