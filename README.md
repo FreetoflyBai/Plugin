@@ -20,5 +20,6 @@ Plugin is a library of Android plugin develop ,base on DroidPlugin
 
 ## Note
    library build.gradle need replace package name<br>
+   
    ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/7.png)
 
