@@ -1,8 +1,8 @@
 # Plugin
 
-##Plugin is a library of Android plugin develop ,base on DroidPlugin
+## Plugin is a library of Android plugin develop ,base on DroidPlugin
 
-##Instructions
+## Instructions
 
 ###  1.deploy
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/1.png)
@@ -18,7 +18,7 @@
   * install plugin<br>
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/6.png)
 
-##Note
+## Note
    library build.gradle need replace package name<br>
    ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/7.png)
 
