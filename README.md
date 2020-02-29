@@ -4,19 +4,24 @@
 
 ## 使用方法
 
-###  1.部署代码
+###  1.初始化
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/1.png)
-###  2.实现
+###  2.继承
   * implements<br>
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/2.png)
+###  3.检查服务连接
   * check connected<br>
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/3.png)
+###  4.检查插件是否安装
   * check installed<br>
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/4.png)
-  * start plugin<br>
-  ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/5.png)
+###  5.安装插件
   * install plugin<br>
   ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/6.png)
+###  6.启动插件
+  * start plugin<br>
+  ![image](https://github.com/FreetoflyBai/Plugin/blob/master/screenshots/5.png)
+  
 
 ## 注意替换
    library build.gradle need replace package name<br>
